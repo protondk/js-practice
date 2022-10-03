@@ -11,3 +11,8 @@ function studentName(nombre, lastName, nickname) {
 result = studentName(nombre, lastName, nickname);
 document.write(result);
 
+//To return fullName is recommended to create a function like below.
+
+//function fullName(name, lastName){
+//  return name + " " + lastName;
+//};
